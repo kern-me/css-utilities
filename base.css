@@ -1,0 +1,67 @@
+:root {
+    --color-light-tan: #ffcb9a;
+    --color-dark-tan: #d9b08c;
+    --color-gray: #2c3531;
+    --color-dark-green: #116466;
+    --color-light-green: #d1e8e2;
+    --max-container-width: 1400px;
+    --container-gutter-x: 5vh;
+    --container-gutter: 5vw;
+}
+
+
+/* 1.250 Major Third Scale by: https://baseline.is/tools/type-scale-generator/ */
+
+html {
+    font-size: 16px;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+body {
+    line-height: 1.65;
+}
+
+p {
+    font-size: 1em;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    line-height: 1.15;
+}
+
+h1, .h1 {
+    font-weight: 700;
+    margin-top: 0;
+    font-size: 3.05em;
+}
+
+h2, .h2 { font-size: 2.44em; }
+
+h3, .h3 { font-size: 1.95em; }
+
+h4, .h4 { font-size: 1.56em; }
+
+h5, .h5 { font-size: 1.25em; }
+
+.text-caption { font-size: 0.8em; }
+
+small, .text-small {
+    font-size: 0.64em;
+}
+
+h2 + p,
+h3 + p,
+h4 + p,
+h5 + p,
+h6 + p {
+    margin-top: 1rem;
+}
+
+
+
+
