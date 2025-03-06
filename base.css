@@ -5,8 +5,8 @@
     --color-dark-green: #116466;
     --color-light-green: #d1e8e2;
     --max-container-width: 1400px;
-    --container-gutter-x: 5vh;
-    --container-gutter: 5vw;
+    --container-gutter-x: 2em;
+    --container-gutter: 2.5em;
 }
 
 
@@ -23,7 +23,6 @@ body {
 
 p {
     font-size: 1em;
-
 }
 
 h1,

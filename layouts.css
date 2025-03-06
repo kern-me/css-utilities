@@ -10,10 +10,9 @@
 
 .g-row {
     display: grid;
-}
-
-.g-row--2 {
-    grid-template-columns: 1fr;
+    & .g-row--2 {
+        grid-template-columns: 1fr;
+    }
 }
 
 .g-col {
@@ -26,25 +25,18 @@
     }
 
     p+p {
-        margin-top: 2rem;
+        margin-top: 1.5rem;
     }
 }
 
-.g-row--a {
-    .g-col:first-child {
-        order: 2;
-    }
-    .g-col:last-child {
-        order: 1;
-    }
-}
-
-.g-row--b {
-    .g-col:first-child {
-        order: 2;
-    }
-    .g-col:last-child {
-        order: 1;
+.g-row--a, .g-row--b {
+    .g-col {
+        &:first-child {
+            order: 2;
+        }
+        &:last-child {
+            order: 1;
+        }
     }
 }
 
@@ -68,22 +60,26 @@
     }
 
     .g-row--a {
-        .g-col:first-child {
-            order: 1;
-            padding-right: 5vw
-        }
-        .g-col:last-child {
-            order: 2;
+        .g-col {
+            &:first-child {
+                order: 1;
+                padding-right: 2.5rem
+            }
+            &:last-child {
+                order: 2;
+            }
         }
     }
 
     .g-row--b {
-        .g-col:first-child {
-            order: 2;
-            padding-left: 5vw;
-        }
-        .g-col:last-child {
-            order: 1;
+        .g-col {
+            &:first-child {
+                order: 2;
+                padding-left: 2.5rem
+            }
+            &:last-child {
+                order: 1;
+            }
         }
     }
 }
